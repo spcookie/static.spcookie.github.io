@@ -820,14 +820,14 @@ button {
 }
 @font-face {
   font-family: 'LXGW WenKai Screen';
-  src: url("https://cdn.jsdelivr.net/gh/spcookie/static.spcookie.github.io@1.2.1/font/LXGWWenKaiMonoScreen.ttf");
+  src: url("http://localhost:4000/font/LXGWWenKaiMonoScreen.ttf");
   font-weight: 'normal';
   font-style: 'normal';
   font-display: swap;
 }
 @font-face {
   font-family: 'Varela Round';
-  src: url("https://cdn.jsdelivr.net/gh/spcookie/static.spcookie.github.io@1.2.1/font/VarelaRound-Regular.ttf");
+  src: url("http://localhost:4000/font/VarelaRound-Regular.ttf");
   font-weight: 'normal';
   font-style: 'normal';
   font-display: swap;
@@ -956,7 +956,7 @@ button {
   height: 64px;
 }
 .l_header .nav-sub {
-  max-width: 1080px;
+  max-width: 1200px;
   margin: auto;
 }
 .l_header .nav-sub .title {
@@ -1538,7 +1538,7 @@ ul.list-v >li>a:hover {
   right: calc(100% - 0.5 * 16px);
 }
 #wrapper {
-  max-width: 1080px;
+  max-width: 1200px;
   margin: auto;
 }
 @media screen and (min-width: 2048px) {
@@ -1588,11 +1588,11 @@ ul.list-v >li>a:hover {
 }
 @media screen and (max-width: 2048px) {
   .l_header {
-    max-width: 1112px;
-    left: calc((100% - 1112px) * 0.5);
+    max-width: 1232px;
+    left: calc((100% - 1232px) * 0.5);
   }
 }
-@media screen and (max-width: 1112px) {
+@media screen and (max-width: 1232px) {
   .l_header {
     left: 0;
     border-radius: 0;
